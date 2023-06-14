@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/da8d7793e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>RESUME BUILDER</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Select your Sections</h1>
+    </div>
+    <div class="container">
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Profile Summary</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Academics and Cocurricular activities</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Summer Internship</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Work Experience</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5>Projects</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Certifications</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Leadership Positions</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Extracurricular</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" draggable="true">
+        <div class="section-header">
+          <i class="fa-solid fa-bars"></i>
+          <img class="fa-solid fa-circle-info" src="./imag/Vector.svg" alt="" />
+          <h5 contenteditable="false">Education</h5>
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-toggle-off" id="toggle-btn"></i>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <p>Brief description of the section goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button class="save-btn" disabled>Save and Next</button>
+      </div>
+    </div>
+    
+    <script src="./Javascript/text_edit.js"></script>
+    <script src="./Javascript/toggle_btn.js"></script>
+    <script src="./Javascript/overlay.js"></script>
+    <script src="./Javascript/drag.js"></script>
+    <script src="./Javascript/btn.js"></script>
+
+  </body>
+</html>
